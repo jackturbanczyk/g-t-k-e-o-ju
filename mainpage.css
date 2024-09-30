@@ -1,0 +1,99 @@
+:root {
+    --grid-unit: 1rem;
+    --border-radius-base: 0.5rem;
+  }
+  
+  [data-theme="light"] {
+    --color-bg: #ffffff;
+    --color-fg: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --color-bg: #000000;
+    --color-fg: #ffffff;
+  }
+
+
+.profile-image {
+    display: block;
+    margin: 50px auto;
+    width: 250px; 
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: var(--color-fg);
+}
+header { 
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    margin: 0;
+    text-align: left;
+}
+
+
+section {
+    margin: 40px;
+    text-align: center;
+}
+a {
+    color: #778899;
+    text-decoration: none;
+}
+a:hover { 
+    background-color: #7CB9E8;
+}
+ul {
+    list-style-type: square;
+    list-style-position: inside;
+    text-align: center;
+    padding-left: 0; 
+}
+
+.name-nav {
+    text-align: left;
+}
+
+.nav-bar {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;}
+
+button { 
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10%;
+    
+}
+
+.nav-bar a, 
+button {
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10%; 
+  cursor: pointer;
+}
+
+.fav-color {
+ color:#5dade2;
+}
+
+
